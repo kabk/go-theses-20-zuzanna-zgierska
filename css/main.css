@@ -499,20 +499,23 @@ img{
     padding: 2px;
     font-family: "SuisseIntlCond";
     line-height: 1.3em;
-    left: 40px;
+    /* left: 40px; */
     }
 
-    #tooltip2
-    {
-    text-align: left;
-    transform: rotate(-90deg);
-    color: red;
-    background: white;
-    border: solid 0.1em;
-    position: absolute;
-    z-index: 100;
-    padding: 2px;
-    font-family: "SuisseIntlCond";
-    line-height: 1.3em;
-    left: 40px;
-    }
+        #tooltip.top
+        {
+            position: absolute;
+        }
+
+        #tooltip.left
+        {
+          position: absolute;
+
+        }
+
+        /* #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        } */

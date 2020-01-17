@@ -34,12 +34,12 @@ $(document).ready(function(){
             var init_tooltip = function()
             {
                 if( $( window ).width() < tooltip.outerHeight() * 1.5 )
-                    tooltip.css( 'max-height', $( window ).width() / 2 );
+                    tooltip.css( 'max-height', $( window ).width() / 10 );
                 else
-                    tooltip.css( 'max-height', 340 );
+                    tooltip.css( 'max-height', 40 );
 
-                var pos_left = target.offset().left + ( target.outerHeight() ) - ( tooltip.outerHeight() / 2 ),
-                    pos_top  = target.offset().top - tooltip.outerHeight() - 20;
+                var pos_left = target.offset().left + ( target.outerHeight() / 2) - ( tooltip.outerHeight() / 2 ),
+                    pos_top  = target.offset().top - tooltip.outerWidth() + 400;
 
                 if( pos_left < 0 )
                 {
