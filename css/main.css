@@ -167,6 +167,7 @@ html, body{
 }
 
 p{
+  font-family: "SuisseWorks";
   margin:0 auto;
   padding:0 auto;
   line-height: 1.2em;
@@ -187,8 +188,8 @@ p{
 
 .imgWrapper{
   /* width:800px; */
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
   transform-style: preserve-3d;
   border: solid black 0px;
   overflow: hidden;
@@ -214,8 +215,24 @@ img{
   left: 50%;
 }
 
+.titleTxt{
+  font-family: "SuisseIntl";
+  font-size: 1.5em;
+  line-height: 1em;
+  color: rgba(127,0,255,1);
+  text-align: center;
+}
 
+.introTxt{
+  font-family: "SuisseIntlCond";
+  font-size: 1em;
+  line-height: 1.3em;
+  color: rgba(127,0,255,1);
+}
 
+span{
+  color: rgba(127,0,255,1)
+}
 
 
 
@@ -250,7 +267,7 @@ img{
 
    .titleTxt{
      font-size: 2em;
-     color: red;
+     color: rgba(127,0,255,1);
      text-align: center;
    }
 
@@ -479,43 +496,102 @@ img{
     }
 }
 
-/* Tooltip Styles */
 
-    abbr[title] {
-    text-decoration: unset;
-    color: red;
-    text-decoration: none;
-    }
 
-    #tooltip
+    /* .footn
     {
     text-align: left;
     transform: rotate(-90deg);
-    color: red;
+    color: redBox;
     background: white;
     border: solid 0.1em;
-    position: absolute;
     z-index: 100;
     padding: 2px;
     font-family: "SuisseIntlCond";
     line-height: 1.3em;
-    /* left: 40px; */
+    }
+    .footn1
+    {
+    transform: rotate(-90deg);
+    color: red;
+    background: white;
+    border: solid 0.1em;
+    z-index: 100;
+    padding: 2px;
+    font-family: "SuisseIntlCond";
+    line-height: 1.3em;
+    } */
+
+    #footRef{
+      cursor: crosshair;
     }
 
-        #tooltip.top
-        {
-            position: absolute;
-        }
 
-        #tooltip.left
-        {
-          position: absolute;
+    .redBox{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: red;
+      display: none;
+      pointer-events: none;
 
-        }
+    }
 
-        /* #tooltip.right:after
-        {
-            right: 10px;
-            left: auto;
-            margin: 0;
-        } */
+    .redBox1{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+
+    .redBox2{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 80%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+
+    .redBox3{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 120%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+
+    .redBox4{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+
+    .footnote {
+      text-align: center;
+      transform: rotate(-90deg);
+      -webkit-transform:: rotate(-90deg);
+      color: rgba(127,0,255,1);
+      background: white;
+      border: solid 0.1em;
+      z-index: 100;
+      padding: 2px;
+      font-family: "SuisseIntlCond";
+      line-height: 1.3em;
+    }
