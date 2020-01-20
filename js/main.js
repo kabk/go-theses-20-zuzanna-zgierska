@@ -4,11 +4,13 @@ $(document).ready(function(){
   		max: 25,
   		speed: 400,
       gyroscope: true,
-  	});
+	});
 
-  	VanillaTilt.init(document.querySelectorAll(".tilting"));
+  VanillaTilt.init(document.querySelectorAll(".tilting"));
 
-    //hide and show footnotes
+
+    // Hide and show footnotes:
+
     $('#footRef').click(function(){
       $(".redBox").toggle();
     });
@@ -202,7 +204,9 @@ $(document).ready(function(){
       $(".redBox63").toggle();
     });
 
-    //calucation for centering footnotes
+
+    // Calucation for centering footnotes:
+
     const screenW = $(window).width();
 
     const redBox = $(".redBox").width();
@@ -333,7 +337,7 @@ $(document).ready(function(){
     const offSetfoot60 = (screenW - redBox60)/2;
     const offSetfoot61 = (screenW - redBox61)/2;
     const offSetfoot62 = (screenW - redBox62)/2;
-    const offSetfoot63 = (screenW - redBox62)/2;
+    const offSetfoot63 = (screenW - redBox63)/2;
 
 
     $('.redBox').css({
@@ -530,7 +534,8 @@ $(document).ready(function(){
     });
 
 
-    //calucation for positioning footnotes to the halfmoons
+    // Calucation for positioning footnotes to their anchors:
+
     const offSetAnchor = $("#footRef").offset().top;
     const footW = $(".redBox").height()/2;
     const posFootn = offSetAnchor - footW;
@@ -802,7 +807,184 @@ $(document).ready(function(){
     $(".redBox4").css({
       'margin-top' : posFootn4,
     });
-  // });
+    $(".redBox5").css({
+      'margin-top' : posFootn5,
+    });
+    $(".redBox6").css({
+      'margin-top' : posFootn6,
+    });
+    $(".redBox7").css({
+      'margin-top' : posFootn7,
+    });
+    $(".redBox8").css({
+      'margin-top' : posFootn8,
+    });
+    $(".redBox9").css({
+      'margin-top' : posFootn9,
+    });
+    $(".redBox10").css({
+      'margin-top' : posFootn10,
+    });
+    $(".redBox11").css({
+      'margin-top' : posFootn11,
+    });
+    $(".redBox12").css({
+      'margin-top' : posFootn12,
+    });
+    $(".redBox13").css({
+      'margin-top' : posFootn13,
+    });
+    $(".redBox14").css({
+      'margin-top' : posFootn14,
+    });
+    $(".redBox15").css({
+      'margin-top' : posFootn15,
+    });
+    $(".redBox16").css({
+      'margin-top' : posFootn16,
+    });
+    $(".redBox17").css({
+      'margin-top' : posFootn17,
+    });
+    $(".redBox18").css({
+      'margin-top' : posFootn18,
+    });
+    $(".redBox19").css({
+      'margin-top' : posFootn19,
+    });
+    $(".redBox20").css({
+      'margin-top' : posFootn20,
+    });
+    $(".redBox21").css({
+      'margin-top' : posFootn21,
+    });
+    $(".redBox22").css({
+      'margin-top' : posFootn22,
+    });
+    $(".redBox23").css({
+      'margin-top' : posFootn23,
+    });
+    $(".redBox24").css({
+      'margin-top' : posFootn24,
+    });
+    $(".redBox25").css({
+      'margin-top' : posFootn25,
+    });
+    $(".redBox26").css({
+      'margin-top' : posFootn26,
+    });
+    $(".redBox27").css({
+      'margin-top' : posFootn27,
+    });
+    $(".redBox28").css({
+      'margin-top' : posFootn28,
+    });
+    $(".redBox29").css({
+      'margin-top' : posFootn29,
+    });
+    $(".redBox30").css({
+      'margin-top' : posFootn30,
+    });
+    $(".redBox31").css({
+      'margin-top' : posFootn31,
+    });
+    $(".redBox32").css({
+      'margin-top' : posFootn32,
+    });
+    $(".redBox33").css({
+      'margin-top' : posFootn33,
+    });
+    $(".redBox34").css({
+      'margin-top' : posFootn34,
+    });
+    $(".redBox35").css({
+      'margin-top' : posFootn35,
+    });
+    $(".redBox36").css({
+      'margin-top' : posFootn36,
+    });
+    $(".redBox37").css({
+      'margin-top' : posFootn37,
+    });
+    $(".redBox38").css({
+      'margin-top' : posFootn38,
+    });
+    $(".redBox39").css({
+      'margin-top' : posFootn39,
+    });
+    $(".redBox40").css({
+      'margin-top' : posFootn40,
+    });
+    $(".redBox41").css({
+      'margin-top' : posFootn41,
+    });
+    $(".redBox42").css({
+      'margin-top' : posFootn42,
+    });
+    $(".redBox43").css({
+      'margin-top' : posFootn43,
+    });
+    $(".redBox44").css({
+      'margin-top' : posFootn44,
+    });
+    $(".redBox45").css({
+      'margin-top' : posFootn45,
+    });
+    $(".redBox46").css({
+      'margin-top' : posFootn46,
+    });
+    $(".redBox47").css({
+      'margin-top' : posFootn47,
+    });
+    $(".redBox48").css({
+      'margin-top' : posFootn48,
+    });
+    $(".redBox49").css({
+      'margin-top' : posFootn49,
+    });
+    $(".redBox50").css({
+      'margin-top' : posFootn50,
+    });
+    $(".redBox51").css({
+      'margin-top' : posFootn51,
+    });
+    $(".redBox52").css({
+      'margin-top' : posFootn52,
+    });
+    $(".redBox53").css({
+      'margin-top' : posFootn53,
+    });
+    $(".redBox54").css({
+      'margin-top' : posFootn54,
+    });
+    $(".redBox55").css({
+      'margin-top' : posFootn55,
+    });
+    $(".redBox56").css({
+      'margin-top' : posFootn56,
+    });
+    $(".redBox57").css({
+      'margin-top' : posFootn57,
+    });
+    $(".redBox58").css({
+      'margin-top' : posFootn58,
+    });
+    $(".redBox59").css({
+      'margin-top' : posFootn59,
+    });
+    $(".redBox60").css({
+      'margin-top' : posFootn60,
+    });
+    $(".redBox61").css({
+      'margin-top' : posFootn61,
+    });
+    $(".redBox62").css({
+      'margin-top' : posFootn62,
+    });
+    $(".redBox63").css({
+      'margin-top' : posFootn63,
+    });
+
 });
 
 //

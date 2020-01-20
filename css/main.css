@@ -156,7 +156,7 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 @font-face {
-  font-family: "SuisseIntlCond";
+  font-family: "SuisseIntlCond-Regular";
   src: url("../font/SuisseIntlCond-Regular.otf");
 }
 
@@ -249,14 +249,14 @@ img{
 }
 
 .introTxt{
-  font-family: "SuisseIntlCond";
+  font-family: "SuisseIntlCond-Regular";
   font-size: 1em;
   line-height: 1.3em;
   color: rgba(127,0,255,1);
 }
 
 span{
-  color: rgba(127,0,255,1)
+  color: rgba(127,0,255,1);
 }
 
 
@@ -521,8 +521,6 @@ span{
     }
 }
 
-
-
     /* .footn
     {
     text-align: left;
@@ -551,6 +549,9 @@ span{
       cursor: crosshair;
     }
 
+/* ==========================================================================
+   INVISIBLE RED BOXES (FOOTNOTES HOLDERS)
+   ========================================================================== */
 
     .redBox{
       position: absolute;
@@ -563,7 +564,6 @@ span{
       pointer-events: none;
 
     }
-
     .redBox1{
       position: absolute;
       z-index: 100;
@@ -574,7 +574,6 @@ span{
       display: none;
       pointer-events: none;
     }
-
     .redBox2{
       position: absolute;
       z-index: 100;
@@ -585,7 +584,6 @@ span{
       display: none;
       pointer-events: none;
     }
-
     .redBox3{
       position: absolute;
       z-index: 100;
@@ -596,8 +594,599 @@ span{
       display: none;
       pointer-events: none;
     }
-
     .redBox4{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox5{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox6{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox7{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox8{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox9{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox10{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox11{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox12{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox13{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox14{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox15{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox16{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox17{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox18{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox19{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox20{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox21{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: red;
+      display: none;
+      pointer-events: none;
+
+    }
+    .redBox22{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox23{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 80%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox24{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 120%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox25{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox26{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox27{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox28{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox29{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox30{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox31{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox32{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox33{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox34{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox35{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox36{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox37{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox38{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox39{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox40{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox41{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox42{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: red;
+      display: none;
+      pointer-events: none;
+
+    }
+    .redBox43{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 90%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox44{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 80%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox45{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 120%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox46{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox47{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox48{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox49{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox50{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox51{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox52{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox53{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox54{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox55{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox56{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox57{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox58{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox59{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox60{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox61{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox62{
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 100%;
+      height: 0%;
+      background-color: blue;
+      display: none;
+      pointer-events: none;
+    }
+    .redBox63{
       position: absolute;
       z-index: 100;
       margin: 0 auto;
@@ -617,6 +1206,6 @@ span{
       border: solid 0.1em;
       z-index: 100;
       padding: 2px;
-      font-family: "SuisseIntlCond";
+      font-family: "SuisseIntlCond-Regular";
       line-height: 1.3em;
     }
