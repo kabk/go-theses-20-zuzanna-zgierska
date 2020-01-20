@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
   VanillaTilt.init(document.querySelector(".tilting"), {
-  		max: 200,
+  		max: 25,
   		speed: 400,
       gyroscope: true,
   	});
