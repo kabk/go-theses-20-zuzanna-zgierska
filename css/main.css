@@ -155,6 +155,31 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: "SuisseIntlCond";
+  src: url("../font/SuisseIntlCond-Regular.otf");
+}
+
+@font-face {
+  font-family: "SuisseIntlCond";
+  src: url("../font/SuisseIntlCond-Italic.otf");
+}
+
+@font-face {
+  font-family: "SuisseIntlCond";
+  src: url("../font/SuisseIntlCond-Bold.otf");
+}
+
+@font-face {
+  font-family: "SuisseWorks";
+  src: url("../font/SuisseWorks-Regular.otf");
+}
+
+@font-face {
+  font-family: "SuisseWorks";
+  src: url("../font/SuisseWorks-RegularItalic.otf");
+}
+
 
 .box{
   height: auto;
