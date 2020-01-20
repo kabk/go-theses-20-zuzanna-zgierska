@@ -156,34 +156,48 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 @font-face {
+   font-family: "SuisseIntl-Regular";
+   src: url("../font/SuisseIntl-Regular.otf");
+}
+
+@font-face {
+   font-family: "SuisseIntl-RegularItalic";
+   src: url("../font/SuisseIntl-RegularItalic.otf");
+}
+
+@font-face {
+   font-family: "SuisseIntl-Bold";
+   src: url("../font/SuisseIntl-Bold.otf");
+}
+
+@font-face {
   font-family: "SuisseIntlCond-Regular";
   src: url("../font/SuisseIntlCond-Regular.otf");
 }
 
-/* @font-face {
+@font-face {
   font-family: "SuisseIntlCond-RegularItalic";
   src: url("../font/SuisseIntlCond-RegularItalic.otf");
-} */
+}
 
-/* @font-face {
+@font-face {
   font-family: "SuisseIntlCond-Bold";
   src: url("../font/SuisseIntlCond-Bold.otf");
-} */
+}
 
 @font-face {
   font-family: "SuisseWorks-Regular";
   src: url("../font/SuisseWorks-Regular.otf");
 }
 
-/* @font-face {
+@font-face {
   font-family: "SuisseWorks-RegularItalic";
   src: url("../font/SuisseWorks-RegularItalic.otf");
-} */
-
+}
 
 .box{
   height: auto;
-  background-color: white;
+  background-color: rgba(0,0,170,0.05);
 }
 
 html, body{
@@ -196,9 +210,9 @@ p{
   margin:0 auto;
   padding:0 auto;
   line-height: 1.2em;
-  text-indent: -0.8em;
-  margin-left: 1.6em;
-  margin-right: 1.6em;
+  text-indent: 3.2em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
   margin-bottom: 1em;
   color: black;
   font-size: 1em;
@@ -246,6 +260,8 @@ img{
   line-height: 1em;
   color: rgba(127,0,255,1);
   text-align: center;
+  text-indent: 0em;
+
 }
 
 .introTxt{
@@ -253,6 +269,16 @@ img{
   font-size: 1em;
   line-height: 1.3em;
   color: rgba(127,0,255,1);
+  text-indent: 0em;
+}
+
+.mainTitle{
+  font-family: "SuisseWorks-Regular";
+  color: black;
+  font-size: 3.2em;
+  line-height: 1em;
+  text-align: center;
+  text-indent: 0em;
 }
 
 span{
