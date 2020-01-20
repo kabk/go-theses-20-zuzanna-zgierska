@@ -160,25 +160,25 @@ nav a:hover {
   src: url("../font/SuisseIntlCond-Regular.otf");
 }
 
-@font-face {
+/* @font-face {
   font-family: "SuisseIntlCond-RegularItalic";
   src: url("../font/SuisseIntlCond-RegularItalic.otf");
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "SuisseIntlCond-Bold";
   src: url("../font/SuisseIntlCond-Bold.otf");
-}
+} */
 
 @font-face {
   font-family: "SuisseWorks-Regular";
   src: url("../font/SuisseWorks-Regular.otf");
 }
 
-@font-face {
+/* @font-face {
   font-family: "SuisseWorks-RegularItalic";
   src: url("../font/SuisseWorks-RegularItalic.otf");
-}
+} */
 
 
 .box{
