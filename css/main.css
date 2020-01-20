@@ -58,8 +58,8 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px SuisseWorks-Regular;
-    font-family: SuisseWorks;
+    font: 16px/26px "SuisseWorks-Regular";
+    font-family: "SuisseWorks-Regular";
 }
 
 .wrapper {
@@ -161,22 +161,22 @@ nav a:hover {
 }
 
 @font-face {
-  font-family: "SuisseIntlCond";
-  src: url("../font/SuisseIntlCond-Italic.otf");
+  font-family: "SuisseIntlCond-RegularItalic";
+  src: url("../font/SuisseIntlCond-RegularItalic.otf");
 }
 
 @font-face {
-  font-family: "SuisseIntlCond";
+  font-family: "SuisseIntlCond-Bold";
   src: url("../font/SuisseIntlCond-Bold.otf");
 }
 
 @font-face {
-  font-family: "SuisseWorks";
+  font-family: "SuisseWorks-Regular";
   src: url("../font/SuisseWorks-Regular.otf");
 }
 
 @font-face {
-  font-family: "SuisseWorks";
+  font-family: "SuisseWorks-RegularItalic";
   src: url("../font/SuisseWorks-RegularItalic.otf");
 }
 
@@ -192,7 +192,7 @@ html, body{
 }
 
 p{
-  font-family: "SuisseWorks";
+  font-family: "SuisseWorks-Regular";
   margin:0 auto;
   padding:0 auto;
   line-height: 1.2em;
